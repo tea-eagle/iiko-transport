@@ -151,23 +151,23 @@ $restrictions = $app->restrictions->deliveryZones();
 $checkDelivery = $app->newCheckDelivery();
 // Список товаров
 $checkDelivery->setProducts([
-	[
-		'id' => '8f3c6904-fa9b-4e6a-ba5e-cf02767a4efc',
-		'amount' => 1,
-		'product' => 'Латте',
-		'modifiers' => [
-			[
-				'id' => '67b3ff12-1284-4410-9cda-ed2e39e18938',
-				'amount' => 1,
-				'product' => 'Мёд',
-			],
-		],
-	],
-	[
-		'id' => '66c6bc33-2360-4e49-98bb-baa821820882',
-		'amount' => 3,
-		'product' => 'Трубочка со сгущенкой',
-	],
+    [
+        'id' => '8f3c6904-fa9b-4e6a-ba5e-cf02767a4efc',
+        'amount' => 1,
+        'product' => 'Латте',
+        'modifiers' => [
+            [
+                'id' => '67b3ff12-1284-4410-9cda-ed2e39e18938',
+                'amount' => 1,
+                'product' => 'Мёд',
+            ],
+        ],
+    ],
+    [
+        'id' => '66c6bc33-2360-4e49-98bb-baa821820882',
+        'amount' => 3,
+        'product' => 'Трубочка со сгущенкой',
+    ],
 ]);
 
 // Адрес
