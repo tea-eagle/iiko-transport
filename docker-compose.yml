@@ -1,0 +1,8 @@
+version: '3.5'
+services:
+  php:
+    image: php:apache
+    volumes:
+      - ./:/var/www/html/
+    ports:
+      - '80:80'

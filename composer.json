@@ -1,0 +1,16 @@
+{
+    "name": "tea-eagle/iiko-transport",
+    "type": "library",
+    "version": "0.8.0",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2",
+        "guzzlehttp/guzzle": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "TeaEagle\\IikoTransport\\": "src/"
+        }
+    }
+}
